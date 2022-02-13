@@ -22,6 +22,7 @@ h1 {
 	color: black;
 	padding: 0px;
 	margin: 8px 0px 32px 0px;
+
 	
 }
 .mydiv {
@@ -36,19 +37,20 @@ h1 {
 }
 
 .mindiv {
+
+
 	border: 1px;
-	margin: 15px;
+	
 	margin-top: 15px;
-	background-color: grey;
-	height: 300px;
-	overflow: hidden;
+	
 
 
 }
 
-p {
+#p {
 	padding: 0px 10px 0px 10px;
 	margin: 10px;
+	background-color: grey;
 
 }
 * {
@@ -61,8 +63,6 @@ p {
 text-align: center; 
 font-weight: bold; 
 font-size: large;
-padding: 0px;
-margin: 4px 0px 0px 0px;
 }
 
 .container-fluid {
@@ -112,7 +112,7 @@ ul {
 	padding: 0;
 }
 @media (max-width: 767px) {
-	.pp {
+	#p {
 		margin: 15%;
-	margin-top: 15px;
+	margin-top: 0px;
 	}
